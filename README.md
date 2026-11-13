@@ -180,6 +180,6 @@ The confusion matrices illustrate classification errors across the ten Fashion-M
 
 ## Explore the Project
 
-- [Open the Jupyter Notebook](notebooks/Fashion-MNIST-Research-Benchmark.ipynb)
+- [Open the Jupyter Notebook](notebooks/Fashion_MNIST_Research_Benchmark.ipynb)
 - [Read the Research Report](report/research_report.md)
 - [Browse Experimental Results](results/)
