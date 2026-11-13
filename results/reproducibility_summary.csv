@@ -1,0 +1,4 @@
+Model,Mean_Accuracy,Std_Accuracy,Mean_Training_Time
+CNN,89.0,0.366,174.189
+Logistic Regression,84.344,0.255,35.88
+MLP,87.922,0.212,47.675

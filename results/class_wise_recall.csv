@@ -1,0 +1,31 @@
+Model,Category,Recall (%)
+Logistic Regression,T-shirt/top,80.7
+Logistic Regression,Trouser,95.3
+Logistic Regression,Pullover,75.6
+Logistic Regression,Dress,87.4
+Logistic Regression,Coat,78.2
+Logistic Regression,Sandal,89.8
+Logistic Regression,Shirt,44.800000000000004
+Logistic Regression,Sneaker,92.9
+Logistic Regression,Bag,96.2
+Logistic Regression,Ankle boot,94.6
+MLP,T-shirt/top,85.39999999999999
+MLP,Trouser,97.5
+MLP,Pullover,82.89999999999999
+MLP,Dress,88.3
+MLP,Coat,79.7
+MLP,Sandal,95.5
+MLP,Shirt,60.6
+MLP,Sneaker,95.89999999999999
+MLP,Bag,97.6
+MLP,Ankle boot,95.3
+CNN,T-shirt/top,85.8
+CNN,Trouser,97.6
+CNN,Pullover,79.3
+CNN,Dress,90.9
+CNN,Coat,85.1
+CNN,Sandal,97.2
+CNN,Shirt,62.0
+CNN,Sneaker,93.4
+CNN,Bag,97.6
+CNN,Ankle boot,96.7
