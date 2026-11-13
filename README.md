@@ -157,3 +157,29 @@ See [`report/research_report.md`](report/research_report.md) for the detailed ex
 Developed as an independent machine learning research project to investigate the relationship between classification performance, computational cost, and robustness.
 
 **Project status:** Experimental research project — ongoing.
+
+## Visual Results
+
+### Model Robustness to Gaussian Noise
+
+![Model Robustness](results/robustness_accuracy.png)
+
+The CNN achieves the highest accuracy on clean images, while Logistic Regression performs better under severe Gaussian noise.
+
+### Class-wise Recall Comparison
+
+![Class-wise Recall](results/class_wise_recall.png)
+
+CNN performs well across most categories, while shirt classification remains challenging for all three models.
+
+### Confusion Matrices
+
+![Confusion Matrices](results/confusion_matrices.png)
+
+The confusion matrices illustrate classification errors across the ten Fashion-MNIST categories.
+
+## Explore the Project
+
+- [Open the Jupyter Notebook](notebooks/Fashion-MNIST-Research-Benchmark.ipynb)
+- [Read the Research Report](report/research_report.md)
+- [Browse Experimental Results](results/)
