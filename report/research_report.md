@@ -135,11 +135,13 @@ CNN achieved the highest clean test accuracy.
 
 | Model | Parameters | Mean training time across three seeds |
 |---|---:|---:|
-| Logistic Regression | 7,850 | 35.88 seconds |
-| MLP | 235,146 | 47.68 seconds |
-| CNN | 105,866 | 174.19 seconds |
+| Logistic Regression | 7,850 | 34.305 seconds |
+| MLP | 235,146 | 47.169 seconds |
+| CNN | 105,866 | 169.278 seconds |
 
-CNN required more training time in the CPU environment, while Logistic Regression had the smallest parameter count and shortest training time.
+Training time represents the mean of three independent training runs on a CPU environment. CNN required the most training time, while Logistic Regression was the fastest model.
+
+These results demonstrate that higher classification performance can involve increased computational cost.
 
 ### 4.3 Reproducibility analysis
 
