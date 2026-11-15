@@ -81,15 +81,17 @@ An interesting observation is that Logistic Regression performs better under sev
 
 ### 3. Reproducibility Analysis
 
-Each model was trained using three different random seeds.
+Each model was trained independently using three different random seeds: 42, 123, and 2026. Mean validation accuracy, standard deviation, and mean training time were calculated across the three runs.
 
-| Model | Mean validation accuracy | Standard deviation | Mean training time |
+| Model | Mean Validation Accuracy | Standard Deviation (percentage points) | Mean Training Time |
 |---|---:|---:|---:|
-| Logistic Regression | 84.344% | 0.255 | 35.88 s |
-| MLP | 87.922% | 0.212 | 47.68 s |
-| CNN | **89.000%** | 0.366 | 174.19 s |
+| Logistic Regression | 84.344% | 0.255 | 34.305 s |
+| MLP | 87.922% | 0.212 | 47.169 s |
+| CNN | **89.000%** | 0.366 | 169.278 s |
 
-CNN achieved the highest mean validation accuracy, while MLP showed the lowest variation across the three runs.
+CNN achieved the highest mean validation accuracy, while MLP showed the lowest variation across the three runs. Logistic Regression required the least training time.
+
+These results highlight a trade-off between classification performance, consistency, and computational cost.
 
 ### 4. Class-wise Analysis
 
@@ -177,6 +179,13 @@ CNN performs well across most categories, while shirt classification remains cha
 ![Confusion Matrices](results/confusion_matrices.png)
 
 The confusion matrices illustrate classification errors across the ten Fashion-MNIST categories.
+
+## Reproducibility Data
+
+The following files contain the results of the experiments across three random seeds:
+
+- [Multiple Seed Results](results/multiple_seed_results.csv)
+- [Reproducibility Summary](results/reproducibility_summary.csv)
 
 ## Explore the Project
 
