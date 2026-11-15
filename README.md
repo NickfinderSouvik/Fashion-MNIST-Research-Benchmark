@@ -119,6 +119,7 @@ The class-wise recall experiments showed:
 - The noise experiment was limited to Gaussian pixel noise.
 - Additional datasets and corruption types are needed to establish broader conclusions.
 - Results do not establish statistical significance.
+- Each Gaussian noise level was evaluated using one noise realization; repeated corruption trials are needed for more reliable robustness estimates.
 
 ## Technologies Used
 
@@ -133,7 +134,7 @@ The class-wise recall experiments showed:
 
 ## Repository Contents
 
-The project will include:
+The repository includes:
 
 - Jupyter notebook containing the experiments
 - Research report
